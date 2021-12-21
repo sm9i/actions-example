@@ -1,22 +1,22 @@
-name: 测试
-on: push
+name: 测试  #名称
+on: push    #在什么时候触发
 # on:
-#   schedule:
+#   schedule: #时间
 #     - cron: '3 * * * *'
-jobs:
+jobs: #一个任务
   go:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  #运行在ubuntu系统
 
-    steps:
-      - name: Checkout
+    steps:      #步骤  
+      - name: Checkout  #切换分支   
         uses: actions/checkout@master
 
-      - name: use node
+      - name: use node    #使用node
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
-      - run: node ./src/index.js
+      - run: npm install  
+      - run: npm run
         
 
       
