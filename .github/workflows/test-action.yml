@@ -1,7 +1,8 @@
 name: 测试
-on:
-  schedule:
-    - cron: '3 * * * *'
+on: push
+# on:
+#   schedule:
+#     - cron: '3 * * * *'
 jobs:
   go:
     runs-on: ubuntu-latest
