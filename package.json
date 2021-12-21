@@ -4,7 +4,7 @@
   "description": "github actions example ",
   "main": "./src/index",
   "scripts": {
-    "run": "node ./src/index"
+    "index": "node ./src/index"
   },
   "repository": {
     "type": "git",

@@ -1,14 +1,11 @@
 const { default: axios } = require("axios");
 
-function testRequest() {
-    axios.get('https://autumnfish.cn/search?keywords=Love%20Story').then(res => {
-        console.log('request success')
-        console.log(res)
-    }
-    ).catch(error => {
-        console.log('request failed')
-        console.log(`error${error}`)
-    })
+async function testRequest() {
+
+    let res = await axios.get('http://192.168.1.121/doctor/api/v1/referral/web/follow/')
+    console.log(res.status)
+    console.log(res.data)
+    
 }
 
 testRequest()

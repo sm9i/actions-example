@@ -16,7 +16,7 @@ jobs: #一个任务
         with:
           node-version: '14'
       - run: npm install  
-      - run: npm run
+      - run: npm run index
         
 
       
