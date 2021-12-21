@@ -1,0 +1,26 @@
+{
+  "name": "actions-example",
+  "version": "1.0.0",
+  "description": "github actions example ",
+  "main": "./src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sm9i/actions-example.git"
+  },
+  "keywords": [
+    "actions",
+    "example"
+  ],
+  "author": "sm9i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sm9i/actions-example/issues"
+  },
+  "homepage": "https://github.com/sm9i/actions-example#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
